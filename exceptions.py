@@ -1,3 +1,6 @@
+class ValueTooSmall(Exception):
+	pass
+	
 num=1; scores={}; score=[]
 while num !=-1 :
 	try:
@@ -12,5 +15,14 @@ while num !=-1 :
 			import KeyboardInterrupt
 		elif 5 == num:
 			print(score[1])
+		elif -2 == num:
+			raise ValueTooSmall
+			"Raising Userdefined exception"	
+	except ValueTooSmall:
+		print("ValueTooSmallS") 
 	except Exception as a:
 		print(type(a))
+		exception = str(type(a))
+		exception = exception[18:]
+		exception = exception[:-2]
+		print(exception)
