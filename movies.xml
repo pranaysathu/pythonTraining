@@ -1,0 +1,27 @@
+<collection shelf="New Arrivals">
+<movie title="Sholay">
+   <type>Action, Thriller</type>
+   <format>DVD</format>
+   <year>1970</year>
+   <rating>U</rating>
+   <stars>10</stars>
+   <description>Story based movie</description>
+</movie>
+<movie title="Tezaab">
+   <type>Action, Thriller</type>
+   <format>DVD</format>
+   <year>1990</year>
+   <rating>U</rating>
+   <stars>10</stars>
+   <description>Action Love Story</description>
+</movie>
+<movie title="Hum">
+   <type>Action, Thriller</type>
+   <format>DVD</format>
+   <year>2000</year>
+   <rating>U</rating>
+   <stars>10</stars>
+   <description>Story based movie</description>
+</movie>
+
+</collection>
